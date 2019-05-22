@@ -14,9 +14,17 @@ def login():
 def registo():
     return render_template('registo.html')
 
-@app.route('/p3')
-def p3():
-    return render_template('p3.html')
+@app.route('/V')
+def V():
+    return render_template('V.html')
+
+@app.route('/C')
+def C():
+    return render_template('C.html')
+
+@app.route('/F')
+def F():
+    return render_template('F.html')
 
 
 
